@@ -292,7 +292,7 @@ a {
 
 //** Partials Header **//
 .header-wrap {
-  height: 750px;
+  height: 800px;
   width: 130%;
   margin: -15% -15% 0 -15%;
   padding-left: 15%;
@@ -301,15 +301,7 @@ a {
   // transform: rotate(-7deg);
   background-color: black;
 }
-.header-img {
-  background-position: right 0;
-  background-size: cover;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
+
 .header-text {
   padding: 30px;
   display: inline-block;
