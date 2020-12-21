@@ -265,19 +265,6 @@ a {
   padding: 35px 0;
 }
 
-.section-rotate {
-  -webkit-transform: rotate(-7deg);
-          transform: rotate(-7deg);
-  margin-left: -80px;
-  margin-right: -80px;
-  padding: 35px 80px 35px 80px;
-}
-
-.section-rotate .section-rotate-fixed {
-  -webkit-transform: rotate(7deg);
-          transform: rotate(7deg);
-}
-
 .progress {
   height: 20px;
   overflow: hidden;
@@ -306,15 +293,12 @@ a {
 }
 
 .header-wrap {
-  height: 600px;
+  height: 750px;
   width: 130%;
-  margin: -10% -15% 0 -15%;
+  margin: -15% -15% 0 -15%;
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 10%;
-  overflow: hidden;
-  -webkit-transform: rotate(-7deg);
-          transform: rotate(-7deg);
   background-color: black;
 }
 
@@ -332,9 +316,9 @@ a {
   padding: 30px;
   display: inline-block;
   position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  top: 25%;
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
   z-index: 2;
   color: #fff;
   letter-spacing: 2px;
