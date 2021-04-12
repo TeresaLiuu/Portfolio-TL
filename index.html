@@ -15,25 +15,23 @@
 
 <body>
   <div class="wrap">
-    <nav class="navbar navbar-default">
+    <nav id="nav" class="navbar navbar-default">
       <div class="container">
-        <a href="#" class="logo pull-left">
-          <span>Teresa Liu</span>
-        </a>
-        <ul class="nav-menu pull-right clearfix">
-          <li><a href="#three-point" class="scrollTop pink" title="三大重點">
-              Who
+        <ul class="nav-menu mx-auto clearfix">
+          </a>
+          <!-- <li><a href="#three-point" class="scrollTop pink">
+              Whos
             </a>
-          </li>
-          <li><a href="#skills" class="scrollTop blue" title="技能熟練度">
+          </li> -->
+          <li><a href="#three-point" class="scrollTop blue">
               Projects
             </a>
           </li>
-          <li><a href="#profiles" class="scrollTop green" title="個人簡介">
-              Resume
+          <li><a href="#skills" class="scrollTop green">
+              Skills
             </a>
           </li>
-          <li><a href="#profiles" class="scrollTop yellow" title="個人簡介">
+          <li><a href="#contact" class="scrollTop yellow">
               Contact
             </a>
           </li>
@@ -44,7 +42,7 @@
     <section class="header-wrap">
       <div class="container h100 relative" id="header-ele">
         <div class="header-text1">
-          <h1>WELCOME<br>IN</h1>
+          <h1>Teresa Liu</h1>
         </div>
         <div class="header-text2">
           <div class="eye double-blink"></div>
@@ -71,7 +69,7 @@
             </div>
             <div class="col-three-one animated">
               <div class="text-center m-y-2">
-                <img src="./img/googlebook.png" alt="order up img" width="700" height="400">
+                <img src="./img/googlebook.png" alt="googlebook img" width="700" height="400">
               </div>
               <h3 class="text-center m-y-1">
                 <a href="https://googlebooksearchtool.herokuapp.com/">Google Books Search</a>
@@ -80,7 +78,7 @@
             </div>
             <div class="col-three-one animated">
               <div class="text-center m-y-2">
-                <img src="./img/eventify.png" alt="order up img" width="700" height="400">
+                <img src="./img/eventify.png" alt="eventify img" width="700" height="400">
               </div>
               <h3 class="text-center m-y-1">
                 <a href="https://teresaliuu.github.io/Eventify-your-map/">Eventify Your Map</a>
@@ -94,61 +92,64 @@
       </div>
     </section>
 
-    <section id="skills" class="bg-gradient1 text-white section-rotate">
+    <section id="skills" class="text-white section-rotate">
       <div class="section-rotate-fixed">
         <div class="container p-y-3">
           <h2 class="text-center m-b-2">
-            技能熟練度
+            Skills
           </h2>
           <div class="row">
             <div class="col-half animated">
               <div class="text-center m-y-2">
                 <span class="fa fa-code fa-5x"></span>
               </div>
-              <h3 class="text-center m-y-1">
-                HTML + CSS
-              </h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus aut dolorem in autem
-                veniam, nisi repellendus amet a eum laboriosam veritatis doloremque consectetur.</p>
             </div>
             <div class="col-half">
               <div class="m-b-1">
-                <span><span class="fa fa-html5"></span> HTML</span>
-                <div class="progress">
-                  <div class="progress-bar" data-progress="85">
-                    85
-                  </div>
-                </div>
-              </div>
-              <div class="m-b-1">
-                <span><span class="fa fa-css3"></span> CSS3</span>
-                <div class="progress">
-                  <div class="progress-bar" data-progress="85">
-                    80
-                  </div>
-                </div>
-              </div>
-              <div class="m-b-1">
-                <span><span class="fa fa-database"></span> Database</span>
-                <div class="progress">
-                  <div class="progress-bar" data-progress="75">
-                    75
-                  </div>
-                </div>
-              </div>
-              <div class="m-b-1">
-                <span><span class="fa fa-git"></span> Git</span>
-                <div class="progress">
-                  <div class="progress-bar" data-progress="60">
-                    60
-                  </div>
-                </div>
-              </div>
-              <div class="m-b-1">
-                <span><span class="fa fa-group"></span> Team work</span>
+                <span><span class="fab fa-html5"></span> HTML</span>
                 <div class="progress">
                   <div class="progress-bar" data-progress="90">
-                    90
+                    90%
+                  </div>
+                </div>
+              </div>
+              <div class="m-b-1">
+                <span><span class="fab fa-css3"></span> CSS3</span>
+                <div class="progress">
+                  <div class="progress-bar" data-progress="80">
+                    80%
+                  </div>
+                </div>
+              </div>
+              <div class="m-b-1">
+                <span><span class="fab fa-react"></span> React.js</span>
+                <div class="progress">
+                  <div class="progress-bar" data-progress="75">
+                    75%
+                  </div>
+                </div>
+              </div>
+              <div class="m-b-1">
+                <span><span class="fab fa-git"></span> Git</span>
+                <div class="progress">
+                  <div class="progress-bar" data-progress="70">
+                    70%
+                  </div>
+                </div>
+              </div>
+              <div class="m-b-1">
+                <span><span class="fas fa-users"></span> Team work</span>
+                <div class="progress">
+                  <div class="progress-bar" data-progress="100">
+                    100%
+                  </div>
+                </div>
+              </div>
+              <div class="m-b-1">
+                <span><span class="fas fa-heartbeat"></span> My Passion</span>
+                <div class="progress">
+                  <div class="progress-bar" data-progress="100">
+                    100%
                   </div>
                 </div>
               </div>
@@ -159,44 +160,36 @@
       </div>
     </section>
 
-    <section id="profiles" class="p-y-3 section-rotate box-shadow"
-      style="background: url('https://subtlepatterns.com/patterns/restaurant_icons.png');">
-      <div class="section-rotate-fixed">
-        <div class="container">
-          <h2 class="text-center m-b-1">自我簡介</h2>
-          <div class="row">
-            <div class="col-half m-b-2 animated">
-              <h3>Casper</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam molestiae, perspiciatis
-                deserunt provident tempora iusto quis rem accusantium, accusamus commodi iure aliquid
-                animi cupiditate saepe autem corporis facilis ullam cumque!</p>
-              <div class="m-t-1 text-right">
-                <a href="#" class="text-link">
-                  <span class="fa fa-facebook-official fa-2x"></span>
-                </a>
-                <a href="#" class="text-link">
-                  <span class="fa fa-twitter-square fa-2x"></span>
-                </a>
-                <a href="#" class="text-link">
-                  <span class="fa fa-google-plus-square fa-2x"></span>
-                </a>
-              </div>
-              <p class="text-right">accusamus commodi iure aliquid animi cupiditate saepe<br /> autem
-                corporis facilis ullam cumque!</p>
-            </div>
-            <div class="col-half animated">
-              <img
-                src="https://images.unsplash.com/photo-1456534231849-7d5fcd82d77b?dpr=2&auto=format&fit=crop&w=750&h=423&q=80&cs=tinysrgb&crop="
-                alt="" class="img-fluid box-shadow" />
-            </div>
+    <section id="contact">
+      <div class="container">
+        <div class="row justify-content-sm-center">
+          <div class="col col-sm-2 text-center">
+            <a target="_blank" href="mailto:teresaliu819@gmail.com">
+              <i class="far fa-envelope fa-2x"></i>
+              <p>teresaliu819@gmail.com</p>
+            </a>
+          </div>
+          <div class="col col-sm-2 text-center">
+            <a target="_blank" href="https://github.com/TeresaLiuu">
+              <i class="fab fa-github fa-2x"></i>
+              <p>TeresaLiuu</p>
+            </a>
+          </div>
+          <div class="col col-sm-2 text-center">
+            <a target="_blank" href="https://www.linkedin.com/in/teresaliutl">
+              <i class="fab fa-linkedin-in fa-2x"></i>
+              <p>teresaliutl</p>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="footer p-y-3 text-right">
+
+
+    <footer class="footer p-y-2 text-right">
       <div class="container">
-        視差滾動範例
+        <span>See ya ! &nbsp; <a href="#nav" class="fas fa-arrow-up"></a></span>
       </div>
     </footer>
 
